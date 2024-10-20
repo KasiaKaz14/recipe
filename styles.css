@@ -4,40 +4,95 @@ body {
   align-items: center;
   background-color: hsl(30, 54%, 90%);
   width: 1440px;
+  font-family: "Young Serif", "Outfit";
 }
 
 .recipe-container {
-  width: 750px;
+  width: 730px;
   border: none;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
 }
 
+.recipe-photo {
+  width: 665px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+
+.recipe-main-title {
+  color: hsl(24, 5%, 18%);
+  font-size: 35px;
+  margin-left: 35px;
+}
+
 .recipe-section {
   border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-bottom: 25px;
 }
 
 .recipe-description {
   color: hsl(30, 10%, 34%);
   font-size: 16px;
+  font-family: "Outfit";
+  margin-left: 35px;
+  margin-bottom: 25px;
+  width: 665px;
 }
 
 .recipe-preparation {
-  width: 680px;
-  height: 120px;
+  width: 665px;
+  height: 160px;
   background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .recipe-preparation-title {
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 20px;
   color: hsl(332, 51%, 32%);
+  margin: 0;
+}
+
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+}
+
+.recipe-info-detail {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .recipe-second-title {
   color: hsl(14, 45%, 36%);
+  margin-left: 35px;
+}
+
+.recipe-making {
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  margin-left: 15px;
+  width: 590px;
+}
+
+.recipe-making-details {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.recipe-ingredients {
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  margin-left: 15px;
 }
 
 .attribution {
@@ -46,6 +101,12 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.recipe-table-desc {
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  margin-left: 35px;
 }
 
 table {

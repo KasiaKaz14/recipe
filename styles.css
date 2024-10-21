@@ -108,6 +108,7 @@ body {
   margin-left: 20px;
   width: 590px;
   padding: 0;
+  font-size: 16px;
 }
 
 .recipe-making li {
@@ -124,7 +125,7 @@ body {
 .recipe-making-details {
   font-family: "Outfit";
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .recipe-ingredients {

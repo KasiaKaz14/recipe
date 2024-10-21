@@ -55,6 +55,7 @@ body {
   padding-left: 20px;
   color: hsl(332, 51%, 32%);
   margin: 0;
+  font-family: "Outfit";
 }
 
 .recipe-info {
@@ -164,6 +165,8 @@ table {
 td {
   padding: 5px 10px;
   text-align: left;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit";
 }
 
 td:nth-child(2) {
@@ -171,9 +174,37 @@ td:nth-child(2) {
 }
 
 table tr {
+  display: flex;
   border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 25px;
 }
 
 table tr:last-child {
   border-bottom: none;
+}
+
+.table-first-element {
+  margin-left: 220px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table-second-element {
+  margin-left: 236px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table-third-element {
+  margin-left: 228px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table-fourth-element {
+  margin-left: 255px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }

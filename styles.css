@@ -130,6 +130,7 @@ body {
 .recipe-ingredients {
   padding: 0;
   padding-left: 8px;
+  color: hsl(30, 10%, 34%);
 }
 
 .recipe-ingredients li {

@@ -58,17 +58,34 @@ body {
 }
 
 .recipe-info {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
   font-family: "Outfit";
   color: hsl(30, 10%, 34%);
+  list-style: none;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.recipe-info li {
+  position: relative;
+  padding: 0;
+  padding-left: 27px;
+  padding-bottom: 7px;
 }
 
 .recipe-info-detail {
+  position: relative;
   font-family: "Outfit";
   font-weight: 700;
   font-size: 14px;
+}
+
+.recipe-info li::before {
+  content: "■";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 7px;
+  color: hsl(332, 51%, 32%);
 }
 
 .recipe-second-title {
@@ -81,6 +98,19 @@ body {
   color: hsl(30, 10%, 34%);
   margin-left: 15px;
   width: 590px;
+  padding: 0;
+  padding-left: 40px;
+}
+
+.recipe-making li {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.recipe-making li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .recipe-making-details {
@@ -90,9 +120,25 @@ body {
 }
 
 .recipe-ingredients {
+  padding: 0;
+  padding-left: 40px;
+}
+
+.recipe-ingredients li {
+  position: relative;
   font-family: "Outfit";
-  color: hsl(30, 10%, 34%);
-  margin-left: 15px;
+  list-style: none;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
+.recipe-ingredients li::before {
+  content: "■";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-size: 7px;
+  color: hsl(14, 45%, 36%);
 }
 
 .attribution {
@@ -111,7 +157,7 @@ body {
 
 table {
   margin: 0 auto;
-  width: 400px;
+  width: 650px;
   border-collapse: collapse;
 }
 
